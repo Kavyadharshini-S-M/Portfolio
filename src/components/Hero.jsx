@@ -26,11 +26,30 @@ export default function Hero() {
                     </p>
 
                     <div className="hero-cta fade-up delay-4">
-                        <a href="#projects" className="btn btn-primary">
-                            View Projects
+                        <a
+                            href="/resume.pdf"
+                            className="btn btn-primary btn-resume"
+                            download="Kavyadharshini_SM_Resume.pdf"
+                        >
+                            <svg
+                                className="btn-icon"
+                                width="18"
+                                height="18"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Download Resume
                         </a>
-                        <a href="#contact" className="btn btn-outline">
-                            Get in Touch
+                        <a href="#projects" className="btn btn-outline">
+                            View Projects
                         </a>
                     </div>
                 </div>

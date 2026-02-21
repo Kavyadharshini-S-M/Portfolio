@@ -62,6 +62,16 @@ export default function Navbar() {
                 ))}
                 <li>
                     <a
+                        href="/resume.pdf"
+                        className="nav-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Resume
+                    </a>
+                </li>
+                <li>
+                    <a
                         href="#contact"
                         className="nav-cta"
                         onClick={(e) => handleNavClick(e, '#contact')}

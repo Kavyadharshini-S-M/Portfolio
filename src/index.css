@@ -190,6 +190,24 @@ strong {
   transform: translateY(-2px);
 }
 
+.btn-resume {
+  background: var(--bg-glass);
+  backdrop-filter: blur(8px);
+}
+
+.btn-resume:hover {
+  background: var(--accent-glow);
+}
+
+.btn-icon {
+  margin-right: 0.2rem;
+  transition: transform 0.3s var(--ease);
+}
+
+.btn-resume:hover .btn-icon {
+  transform: translateY(2px);
+}
+
 /* ═══════════════════════════════════════════════════════
    NAVBAR
    ═══════════════════════════════════════════════════════ */
@@ -530,6 +548,41 @@ strong {
     opacity: 1;
   }
 }
+
+.hero-cta .btn-resume {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 212, 170, 0.3);
+}
+
+.hero-cta .btn-resume::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(to bottom right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(255, 255, 255, 0) 100%);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+
+  20%,
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
 
 .scroll-indicator {
   position: absolute;
