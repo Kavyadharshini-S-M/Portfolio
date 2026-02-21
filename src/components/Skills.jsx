@@ -3,56 +3,55 @@ import useMultiReveal from '../hooks/useMultiReveal';
 const CATEGORIES = [
     {
         icon: '⟨/⟩',
-        title: 'Programming',
+        title: 'Programming & Core Concepts',
         tags: [
             { label: 'Python', type: 'primary' },
+            { label: 'Java', type: 'primary' },
+            { label: 'C++', type: 'primary' },
             { label: 'SQL', type: 'primary' },
-            { label: 'Java', type: 'secondary' },
-            { label: 'Bash Scripting', type: 'secondary' },
+            { label: 'Data Structures', type: 'primary' },
+            { label: 'Algorithms', type: 'secondary' },
+            { label: 'Basic Statistics', type: 'secondary' },
         ],
     },
     {
-        icon: '⛁',
-        title: 'Databases',
+        icon: '📊',
+        title: 'Data Science & ML Libraries',
         tags: [
-            { label: 'MySQL', type: 'primary' },
-            { label: 'MongoDB', type: 'secondary' },
+            { label: 'NumPy', type: 'primary' },
+            { label: 'Pandas', type: 'primary' },
+            { label: 'Scikit-learn', type: 'primary' },
         ],
     },
     {
-        icon: '⇶',
-        title: 'Data Pipelines',
+        icon: '🧠',
+        title: 'Machine Learning Concepts',
         tags: [
-            { label: 'ETL / ELT Concepts', type: 'primary' },
-        ],
-    },
-    {
-        icon: '☁',
-        title: 'Cloud Platforms',
-        tags: [
-            { label: 'AWS (S3, EC2)', type: 'primary' },
-            { label: 'Cloud Fundamentals', type: 'secondary' },
+            { label: 'Supervised Learning', type: 'primary' },
+            { label: 'Unsupervised Learning', type: 'primary' },
+            { label: 'Regression', type: 'secondary' },
+            { label: 'Classification', type: 'secondary' },
+            { label: 'Model Evaluation', type: 'secondary' },
         ],
     },
     {
         icon: '⚙',
-        title: 'DevOps & Tools',
+        title: 'Tools & Platforms',
         tags: [
             { label: 'Git & GitHub', type: 'primary' },
-            { label: 'Linux CLI', type: 'primary' },
-            { label: 'Docker', type: 'secondary' },
-            { label: 'VS Code', type: 'secondary' },
+            { label: 'Linux', type: 'primary' },
+            { label: 'Jupyter Notebook', type: 'secondary' },
+            { label: 'Google Colab', type: 'secondary' },
         ],
     },
 ];
 
-const CONCEPTS = [
-    'Data Modeling (Star / Snowflake)',
-    'Indexing & Partitioning',
-    'Batch vs Streaming',
-    'Normalization & Denormalization',
-    'Query Optimization',
-    'Data Warehousing',
+const SOFT_SKILLS = [
+    'Problem-Solving',
+    'Analytical Thinking',
+    'Collaboration',
+    'Adaptability',
+    'Fast Learner',
 ];
 
 export default function Skills() {
@@ -64,7 +63,7 @@ export default function Skills() {
                 <h2 className="section-title reveal">Technical Skills</h2>
 
                 <div className="skills-grid">
-                    {CATEGORIES.slice(0, 4).map((cat) => (
+                    {CATEGORIES.map((cat) => (
                         <div className="skill-category reveal" key={cat.title}>
                             <div className="skill-header">
                                 <span className="skill-icon">{cat.icon}</span>
@@ -102,33 +101,16 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    {/* DevOps & Tools - Moved down or rearranged */}
-                    {CATEGORIES.slice(4).map((cat) => (
-                        <div className="skill-category reveal" key={cat.title}>
-                            <div className="skill-header">
-                                <span className="skill-icon">{cat.icon}</span>
-                                <h3>{cat.title}</h3>
-                            </div>
-                            <div className="skill-tags">
-                                {cat.tags.map((t) => (
-                                    <span className={`tag tag-${t.type}`} key={t.label}>
-                                        {t.label}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-                    ))}
-
-                    {/* Wide concepts row */}
+                    {/* Wide Soft Skills row */}
                     <div className="skill-category skill-category-wide reveal">
                         <div className="skill-header">
                             <span className="skill-icon">◈</span>
-                            <h3>Core Concepts</h3>
+                            <h3>Soft Skills</h3>
                         </div>
                         <div className="skill-tags">
-                            {CONCEPTS.map((c) => (
-                                <span className="tag tag-accent" key={c}>
-                                    {c}
+                            {SOFT_SKILLS.map((s) => (
+                                <span className="tag tag-accent" key={s}>
+                                    {s}
                                 </span>
                             ))}
                         </div>
