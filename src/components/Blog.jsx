@@ -2,19 +2,19 @@ import useMultiReveal from '../hooks/useMultiReveal';
 
 const POSTS = [
     {
-        date: 'Jan 2026',
+        date: 'Feb 2026',
         title: 'Understanding ETL vs ELT: When to Use What',
         desc: 'A practical breakdown of ETL and ELT patterns with examples from my retail pipeline project. Covers trade-offs in cost, latency, and schema design.',
         tags: ['ETL', 'Data Pipeline', 'Architecture'],
     },
     {
-        date: 'Dec 2025',
+        date: 'Feb 2026',
         title: 'SQL Query Optimization: 5 Things I Learned the Hard Way',
         desc: 'From index-blind WHERE clauses to unnecessary subqueries — practical SQL optimization lessons with EXPLAIN ANALYZE examples.',
         tags: ['SQL', 'PostgreSQL', 'Performance'],
     },
     {
-        date: 'Nov 2025',
+        date: 'Feb 2026',
         title: 'Apache Spark for Beginners: RDDs, DataFrames, and When to Use Each',
         desc: "A beginner-friendly guide to Spark's core abstractions, with code examples in PySpark and performance comparisons.",
         tags: ['Spark', 'PySpark', 'Big Data'],

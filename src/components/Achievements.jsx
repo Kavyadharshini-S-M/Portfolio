@@ -4,32 +4,32 @@ const ITEMS = [
     {
         icon: '⟠',
         title: 'SQL Practice',
-        desc: 'Solved <strong>150+ SQL problems</strong> on LeetCode and HackerRank covering joins, subqueries, window functions, CTEs, and optimization.',
+        desc: 'Practicing SQL on a daily basis',
     },
     {
         icon: '⬢',
         title: 'Smart India Hackathon',
-        desc: 'Participated in SIH 2025 — built a <strong>data pipeline prototype</strong> for a government dataset. Reached internal college finals.',
+        desc: 'Participated in SIH 2025 Grand Finale @ IIT Roorkee, Uttarakhand',
     },
     {
         icon: '◈',
-        title: 'College Data Project',
-        desc: 'Led a team of 4 to build a <strong>student attendance analytics dashboard</strong> using Python, MySQL, and Streamlit for the department.',
+        title: 'College Project',
+        desc: 'Leading a team to build a <strong>Robotic Wrist Hand Orthosis</strong> for the partially paralysed people for doing independant daily activities',
     },
     {
         icon: '⎔',
         title: 'Open Source',
-        desc: 'Contributed documentation fixes and test cases to <strong>2 open-source Python projects</strong> on GitHub. Learning to read and contribute to large codebases.',
+        desc: 'Cooking something',
     },
     {
         icon: '◇',
         title: 'DSA Practice',
-        desc: 'Solved <strong>200+ problems</strong> on LeetCode (Arrays, Hashing, Trees, Graphs). Focus on writing clean, efficient code.',
+        desc: 'Solving Leetcode problems on a daily basis',
     },
     {
         icon: '⬡',
         title: 'Technical Workshops',
-        desc: 'Attended college workshops on <strong>Docker, Git, and Linux administration</strong>. Organized a peer session on SQL query optimization.',
+        desc: 'Attended college workshops on <strong>AI, Git, and Linux administration</strong>.',
     },
 ];
 

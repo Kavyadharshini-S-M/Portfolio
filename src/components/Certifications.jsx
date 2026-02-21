@@ -2,34 +2,34 @@ import useMultiReveal from '../hooks/useMultiReveal';
 
 const CERTS = [
     {
-        provider: 'Coursera',
-        title: 'Google Data Analytics Professional Certificate',
+        provider: 'MongoDB',
+        title: 'MongoDB for Students',
         desc: 'End-to-end analytics workflow: ask, prepare, process, analyze, share, act. Hands-on with SQL, spreadsheets, and R.',
     },
     {
-        provider: 'Udemy',
-        title: 'Apache Spark with Python — PySpark',
-        desc: 'RDDs, DataFrames, Spark SQL, and hands-on processing of large datasets in a local cluster setup.',
+        provider: 'Infosys Springboard',
+        title: 'Introduction to Data Science',
+        desc: 'Introduction to data science concepts with practical exposure to data handling, analysis techniques, and real-world problem-solving.',
     },
     {
-        provider: 'YouTube + Docs',
-        title: 'Apache Airflow — Self-Taught',
-        desc: 'Built DAGs from scratch following the official Airflow documentation and community tutorials. Learned operators, hooks, and XCOM.',
+        provider: 'HP',
+        title: 'Data Science and Analytics',
+        desc: 'Comprehensive understanding of data science and analytics, focusing on extracting insights from data using statistical and analytical methods.',
     },
     {
-        provider: 'Coursera',
-        title: 'Introduction to Big Data — UC San Diego',
-        desc: 'Foundations of Hadoop ecosystem, MapReduce paradigm, and distributed computing concepts.',
+        provider: 'NPTEL',
+        title: 'Introduction to Machine Learning',
+        desc: 'Fundamental machine learning concepts including supervised and unsupervised learning, algorithms, and practical applications.',
     },
     {
-        provider: 'AWS',
-        title: 'AWS Cloud Practitioner Essentials',
-        desc: 'Core AWS services (S3, EC2, IAM, RDS), cloud architecture fundamentals, and pricing models.',
+        provider: 'NPTEL',
+        title: 'The Joy of computing using Python',
+        desc: 'Problem-solving and computational thinking using Python, with a strong emphasis on logic, patterns, and algorithmic thinking.',
     },
     {
-        provider: 'Self-Paced',
-        title: 'Docker for Beginners',
-        desc: 'Containerization basics, writing Dockerfiles, multi-container apps with Docker Compose for local dev environments.',
+        provider: 'NPTEL',
+        title: 'Python for Data Science',
+        desc: 'Python programming fundamentals, data structures, and libraries for data manipulation and analysis.',
     },
 ];
 

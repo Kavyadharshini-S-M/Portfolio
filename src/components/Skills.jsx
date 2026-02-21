@@ -16,26 +16,14 @@ const CATEGORIES = [
         title: 'Databases',
         tags: [
             { label: 'MySQL', type: 'primary' },
-            { label: 'PostgreSQL', type: 'primary' },
             { label: 'MongoDB', type: 'secondary' },
         ],
     },
-    {
-        icon: '⬡',
-        title: 'Big Data',
-        tags: [
-            { label: 'Apache Spark', type: 'primary' },
-            { label: 'Hadoop (HDFS, MapReduce)', type: 'secondary' },
-            { label: 'PySpark', type: 'secondary' },
-        ],
-    },
-    {
+     {
         icon: '⇶',
         title: 'Data Pipelines',
         tags: [
             { label: 'ETL / ELT Concepts', type: 'primary' },
-            { label: 'Apache Airflow', type: 'primary' },
-            { label: 'Cron-based Scheduling', type: 'secondary' },
         ],
     },
     {
@@ -43,7 +31,6 @@ const CATEGORIES = [
         title: 'Cloud Platforms',
         tags: [
             { label: 'AWS (S3, EC2)', type: 'primary' },
-            { label: 'GCP (BigQuery)', type: 'secondary' },
             { label: 'Cloud Fundamentals', type: 'secondary' },
         ],
     },

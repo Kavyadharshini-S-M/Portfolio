@@ -8,7 +8,7 @@ const COURSES = [
     'Big Data Analytics',
     'Object-Oriented Programming',
     'Software Engineering',
-    'Discrete Mathematics',
+
 ];
 
 export default function Education() {
@@ -22,10 +22,10 @@ export default function Education() {
                 <div className="education-card reveal">
                     <div className="edu-dot" />
                     <div className="edu-content">
-                        <h3>B.Tech in Computer Science &amp; Engineering</h3>
-                        <p className="edu-institution">Anna University — Chennai, India</p>
+                        <h3>Integrated M.Tech in Computer Science &amp; Engineering (5 Years)</h3>
+                        <p className="edu-institution">Sri Sai Ram Engineering College, Chennai, India</p>
                         <p className="edu-year">
-                            2023 – 2027 (Expected) &nbsp;|&nbsp; 3rd Year
+                            2023 – 2028  &nbsp;|&nbsp; 3rd Year
                         </p>
 
                         <div className="edu-coursework">

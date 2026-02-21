@@ -40,7 +40,7 @@ export default function Navbar() {
                 className="nav-logo"
                 onClick={(e) => handleNavClick(e, '#hero')}
             >
-                <span className="logo-bracket">&lt;</span>KSM
+                <span className="logo-bracket">&lt;</span>Kavyadharshini S M
                 <span className="logo-bracket"> /&gt;</span>
             </a>
 

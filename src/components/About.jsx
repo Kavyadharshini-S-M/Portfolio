@@ -29,8 +29,8 @@ export default function About() {
                 <div className="about-grid">
                     <div className="about-text reveal">
                         <p>
-                            I'm a <strong>3rd-year B.Tech student</strong> majoring in
-                            Computer Science, with a deep interest in the infrastructure that
+                            I'm a <strong>3rd-year Integrated M.Tech student</strong> majoring in
+                            Computer Science and Engineering, with a deep interest in the infrastructure that
                             sits behind every data-driven product. While most people see
                             dashboards and reports, I'm fascinated by the{' '}
                             <strong>pipelines, schemas, and distributed systems</strong> that
