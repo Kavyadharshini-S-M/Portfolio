@@ -57,10 +57,13 @@ export default function Hero() {
                 <div className="hero-image-wrapper fade-up delay-2">
                     <div className="hero-image-glow"></div>
                     <div className="hero-image-border">
+                        <div className="image-protection-overlay"></div>
                         <img
                             src="/profile.jpg"
                             alt="Kavyadharshini S M"
                             className="hero-image"
+                            onContextMenu={(e) => e.preventDefault()}
+                            onDragStart={(e) => e.preventDefault()}
                         />
                     </div>
                     <div className="hero-image-badge">

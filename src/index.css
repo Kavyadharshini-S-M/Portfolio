@@ -488,6 +488,18 @@ strong {
   border-radius: 16px;
   /* Adjusting brightness/contrast for a more professional look */
   filter: contrast(1.05) brightness(1.02);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.image-protection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: transparent;
 }
 
 .hero-image-glow {
