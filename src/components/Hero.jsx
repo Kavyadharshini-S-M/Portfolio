@@ -39,7 +39,7 @@ export default function Hero() {
                     <div className="hero-image-glow"></div>
                     <div className="hero-image-border">
                         <img
-                            src="/src/assets/profile.jpg"
+                            src="/profile.jpg"
                             alt="Kavyadharshini S M"
                             className="hero-image"
                         />
