@@ -19,7 +19,6 @@ const PROJECTS = [
             'Inserted cleaned data into a database',
             'Wrote basic SQL queries for analysis',
         ],
-        github: 'https://github.com/kavyadharshini',
     },
     {
         num: '02',
@@ -39,7 +38,6 @@ const PROJECTS = [
             'Computed basic metrics like counts and frequencies',
             'Improved problem-solving with real-world data',
         ],
-        github: 'https://github.com/kavyadharshini',
     },
     {
         num: '03',
@@ -59,7 +57,6 @@ const PROJECTS = [
             'Worked with timestamps and event types',
             'Built confidence with streaming fundamentals',
         ],
-        github: 'https://github.com/kavyadharshini',
     },
     {
         num: '04',
@@ -79,7 +76,6 @@ const PROJECTS = [
             'Wrote analytical SQL queries',
             'Learned core data modeling concepts',
         ],
-        github: 'https://github.com/kavyadharshini',
     },
 ];
 
@@ -130,14 +126,6 @@ function ProjectCard({ project }) {
                     </div>
                 </div>
 
-                <a
-                    href={project.github}
-                    className="project-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    View on GitHub <span className="arrow">→</span>
-                </a>
             </div>
         </article>
     );
