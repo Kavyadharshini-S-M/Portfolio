@@ -94,7 +94,7 @@ export default function Skills() {
                             </div>
                             <div className="leetcode-content">
                                 <img
-                                    src="https://leetcode-stats-card.vercel.app/?username=Kavyadharshini-S-M&theme=dark&font=Inter"
+                                    src="https://leetcard.jacoblin.cool/Kavyadharshini-S-M?theme=dark&font=Inter"
                                     alt="LeetCode Stats"
                                     className="leetcode-stats-img"
                                 />
