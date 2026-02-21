@@ -1430,8 +1430,7 @@ strong {
   font-style: italic;
   font-size: 0.8rem !important;
   color: var(--text-muted);
-  max-width: 500px;
-  margin: 0 auto;
+  white-space: nowrap;
 }
 
 /* ═══════════════════════════════════════════════════════
