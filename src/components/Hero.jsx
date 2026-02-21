@@ -10,7 +10,7 @@ export default function Hero() {
                     <p className="hero-tag fade-up">Aspiring Data Engineer</p>
 
                     <h1 className="hero-title fade-up delay-1">
-                        Hi <span className="wave-emoji">👋</span>, I'm <span className="highlight">Kavyadharshini S M</span>
+                        Hi, I'm <span className="highlight">Kavyadharshini S M</span>
                     </h1>
 
                     <p className="hero-subtitle fade-up delay-2">
