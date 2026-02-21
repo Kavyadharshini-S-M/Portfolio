@@ -15,7 +15,7 @@ const CATEGORIES = [
         ],
     },
     {
-        icon: '📊',
+        icon: '⊞',
         title: 'Data Science & ML Libraries',
         tags: [
             { label: 'NumPy', type: 'primary' },
@@ -24,7 +24,7 @@ const CATEGORIES = [
         ],
     },
     {
-        icon: '🧠',
+        icon: '⌬',
         title: 'Machine Learning Concepts',
         tags: [
             { label: 'Supervised Learning', type: 'primary' },
