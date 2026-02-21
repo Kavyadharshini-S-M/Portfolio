@@ -19,7 +19,7 @@ const CATEGORIES = [
             { label: 'MongoDB', type: 'secondary' },
         ],
     },
-     {
+    {
         icon: '⇶',
         title: 'Data Pipelines',
         tags: [
@@ -64,7 +64,46 @@ export default function Skills() {
                 <h2 className="section-title reveal">Technical Skills</h2>
 
                 <div className="skills-grid">
-                    {CATEGORIES.map((cat) => (
+                    {CATEGORIES.slice(0, 4).map((cat) => (
+                        <div className="skill-category reveal" key={cat.title}>
+                            <div className="skill-header">
+                                <span className="skill-icon">{cat.icon}</span>
+                                <h3>{cat.title}</h3>
+                            </div>
+                            <div className="skill-tags">
+                                {cat.tags.map((t) => (
+                                    <span className={`tag tag-${t.type}`} key={t.label}>
+                                        {t.label}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+
+                    {/* LeetCode Widget */}
+                    <div className="leetcode-widget reveal">
+                        <div className="leetcode-card">
+                            <div className="leetcode-header">
+                                <div className="leetcode-title">
+                                    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" />
+                                    <h3>LeetCode Stats</h3>
+                                </div>
+                                <a href="https://leetcode.com/u/Kavyadharshini-S-M/" target="_blank" rel="noopener noreferrer" className="leetcode-link">
+                                    Profile ↗
+                                </a>
+                            </div>
+                            <div className="leetcode-content">
+                                <img
+                                    src="https://leetcode-stats-card.vercel.app/?username=Kavyadharshini-S-M&theme=dark&font=Inter"
+                                    alt="LeetCode Stats"
+                                    className="leetcode-stats-img"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* DevOps & Tools - Moved down or rearranged */}
+                    {CATEGORIES.slice(4).map((cat) => (
                         <div className="skill-category reveal" key={cat.title}>
                             <div className="skill-header">
                                 <span className="skill-icon">{cat.icon}</span>
