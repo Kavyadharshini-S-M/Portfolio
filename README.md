@@ -1,16 +1,63 @@
-# React + Vite
+# Professional Data Engineering Portfolio ◈ Kavyadharshini S M
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, interactive portfolio showcase built for the modern data engineering world. This project highlights a journey into distributed systems, ETL pipelines, and the infrastructure that powers data-driven decisions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Data Pipeline Canvas**: A custom-built, real-time animation in the hero section representing data flow (Source → Transform → Load).
+- **Modern Tech Stack**: Built with React 19 + Vite for extreme speed and performance.
+- **Micro-Animations**: Uses Intersection Observer for smooth scroll reveals and micro-interactions.
+- **Glassmorphic Design**: A sleek, dark-themed UI with curated gradients and high-end aesthetics.
+- **Professional Showcase**: 
+  - **Projects**: Problem-Solution-Tooling-Learnings format focused on technical depth.
+  - **Skills**: Categorized technical expertise (Languages, Databases, Cloud, Tools).
+  - **LeetCode Integration**: Real-time stats visualization.
+  - **Resume Access**: Direct, prominent download CTA.
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: Vanilla CSS (Custom Variables, Flexbox, CSS Grid)
+- **Icons**: Lucide-inspired SVG components
+- **Animations**: Custom Hooks + Intersection Observer API
+- **Visualization**: `leetcard` for dynamic stats
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this portfolio locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kavyadharshini-S-M/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🏗️ Technical Highlights
+
+### The Pipeline Canvas
+The hero section features a `PipelineCanvas` component that visually maps the data engineering process. It's built using HTML5 Canvas to ensure high performance while illustrating complex concepts like ingestion, transformation, and storage.
+
+### Design Principles
+- **Aesthetics First**: Avoided generic UI kits in favor of a custom design system that feels professional and recruiter-ready.
+- **Performance**: Zero heavy animation libraries; used pure CSS transitions and intent-based JavaScript triggers.
+- **Systems Thinking**: The structure of the code mirrors the structure of a data system — modular, efficient, and well-documented.
+
+---
+
+Built with ⚡ by **Kavyadharshini S M**
