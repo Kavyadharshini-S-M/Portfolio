@@ -1696,3 +1696,38 @@ strong {
     grid-column: 1 / -1;
   }
 }
+
+/* ── Privacy Guard ── */
+.privacy-blur {
+  filter: blur(40px) !important;
+  transition: filter 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+}
+
+#privacy-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  border: 1px solid var(--accent);
+  padding: 2rem;
+  border-radius: 20px;
+  z-index: 9999;
+  text-align: center;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 50px rgba(0, 212, 170, 0.2);
+  display: none;
+}
+
+#privacy-message h3 {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+@media print {
+  body {
+    display: none !important;
+  }
+}
